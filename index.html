@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <input type="text" placeholder="Buscar....">
+        <!-- Hay disponible una amplia variedad de tipos de datos de entrada  -->
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
+     
+    </div>  
+    <!-- define las divisiones lógicas existentes en el contenido de una página web -->
+</body>  
+<!-- Indica la parte del cuerpo del contenido de un documento  -->
+
+
+    
+        
+    
+
+<body>
+
+    <header class="header">
+        <!-- Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda -->
+
+        <div class="menu container">
+            <a href="#" class="logo">SyM </a>
+            
+            
+            <input type="checkbox" id="menu" />
+
+            <!-- El atributo checked se usa para indicar que el elemento está seleccionado. -->
+            <label for="menu">
+                <!-- etiqueta explicativa a elementos como, por ejemplo, campos de entrada, botones o casillas de verificación. -->
+
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+                
+            </label>
+            <!-- permite a los usuarios navegar por el sitio de manera rápida y sencilla. -->
+            <nav class="navbar">
+                <!-- representa una sección de una página cuyo propósito es proporcionar enlaces de navegación -->
+                <ul>
+                    <!-- crea una lista no ordenada -->
+
+                    <li><a href="#">Inicio</a></li>
+                    <!-- representa a un ítem en una lista ya sea ordenada o no ordenada -->
+                    <li><a href="#">noticias</a></li>
+                                      <!-- crea un enlace a otras páginas de internet -->
+                    <li><a href="#">novedades</a></li>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/car.svg" alt="car">
+                        <div id="carrito">
+
+                            <table id="lista-carrito">
+                                <thead>
+                                    <!-- El elemento thead contiene a un bloque de filas -->
+                                    <tr>
+                                        <!-- representa a la sección de encabezado de una tabla  -->
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+                                <!-- se utiliza para agrupar el contenido de una tabla -->
+
+                            </table>
+                            <a href="#" id="vaciar carrito " class="btn-3">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>      
+            </div>
+        </div>
+
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>BIENVENIDO A NUESTRA TIENDA</span>
+                <!-- para agregar atributos a una sección de texto sin crear una nueva línea de contenido -->
+                <h1>ofertas especiales</h1>
+                <!-- marcar titulos  -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae molestias sapiente,
+                     reprehenderit nulla odio perspiciatis, dolorum officia exercitationem sint dolor soluta 
+                     voluptates incidunt adipisci nisi amet, id minima iure pariatur?
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">informacion</a>
+                    <a href="#" class="btn-1">leer mas</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/bag.jpg" alt="">
+           </div>
+      </div>
+   </header>
+   <!-- epresenta un grupo de ayudas introductorias o de navegación.  -->
+
+
+   <section class="oferts container">
+
+
+    <div class="ofert-1 b1">
+        <div class="ofert-txt">
+            <h3>CAMISETAS</h3>
+        </div>
+     </div>
+
+   </section>
+
+   
+
+
+
+   <main class="products container">
+    <!-- sirve principalmente para contener a otros elementos HTML -->
+      
+      <div class="box-container" id="lista-1">
+        
+
+        <div class="box">
+            <img src="imagenes/pr1.jpg" alt="">
+            <div class="product-txt">
+                <h3>camiseta oversize blanca</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="1">agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="imagenes/pr2.jpeg" alt="">
+            <div class="product-txt">
+                <h3>camiseta oversize negra </h3>
+                <p>calidad premium</p>
+                <p class="precio">$180.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="2">agregar al carrito</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="imagenes/pr3.jpg" alt="">
+            <div class="product-txt">
+                <h3>camiseta oversize de coleccion</h3>
+                <p>calidad premium</p>
+                <p class="precio">$250.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="3">agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagenes/pr4.jpeg" alt="">
+            <div class="product-txt">
+                <h3>camiseta versace</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="4">agregar al carrito</a>
+            </div>
+        </div>
+     
+      </div>
+
+      <div
+       class="btn-2" id="load-more"><a href="http://127.0.0.1:5501/camiseta.html">cargar mas</a></div>
+   </main>
+
+
+   <section class="oferts container">
+
+
+    <div class="ofert-2 b1">
+        <div class="ofert-txt">
+            <h3>PANTALONES</h3>
+        </div>
+     </div>
+
+   </section>
+
+   <main class=" articulos container" >
+    <div class="art-container" id="lista-2">
+
+        <div class="art">
+            <img src="imagenes/jean1.jpg" alt="">
+            <div class="articulo-txt">
+                <h4>Pantalon NiKE</h4>
+                <p>calidad premium</p>
+                <p class="precio">$155.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="1">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="art">
+            <img src="imagenes/jean2.jpg" alt="">
+            <div class="articulo-txt">
+                <h4>Pantalon GY</h4>
+                <p>calidad premium</p>
+                <p class="precio">$300.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="2">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="art">
+            <img src="imagenes/jean3.webp" alt="">
+            <div class="articulo-txt">
+                <h4>Pantalon de coleccion</h4>
+                <p>calidad premium</p>
+                <p class="precio">$350.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="3">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="art">
+            <img src="imagenes/jean4.jpeg" alt="">
+            <div class="articulo-txt">
+                <h4>Pantalon versace</h4>
+                <p>calidad premium</p>
+                <p class="precio">$182.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="4">agregar al carrito</a>
+            </div>            
+        </div>
+
+    </div>
+    <div class="btn-2"  aid="load-more"> <a href="https://www.google.com/"></a>cargar Mas</div>
+
+
+   </main>
+
+
+  
+   <section class="oferts container">
+
+    <div class="ofert-3 b1">
+        <div class="ofert-txt">
+            <h3>ACCESORIOS</h3>
+        </div>
+     </div>
+
+   </section>
+
+   <main class=" accesorios container" >
+    <div class="acs-container" id="lista-3">
+
+
+        <div class="acs">
+            <img src="imagenes/gorra2.jpeg" alt="">
+            <div class="accesorio-txt">
+                <h5>Gorra importada</h5>
+                <p>calidad premium</p>
+                <p class="precio">$180.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="1">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="acs">
+            <img src="imagenes/rolex.jpeg" alt="">
+            <div class="accesorio-txt">
+                <h5>rolex con diamantes</h5>
+                <p>calidad premium</p>
+                <p class="precio">$5.000.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="2">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="acs">
+            <img src="imagenes/rolex2.jpeg" alt="">
+            <div class="accesorio-txt">
+                <h5>rolex sm</h5>
+                <p>calidad premium</p>
+                <p class="precio">$8.000.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="4">agregar al carrito</a>
+            </div>            
+        </div>
+
+        
+
+        <div class="acs">
+            <img src="imagenes/cadna.jpg" alt="">
+            <div class="accesorio-txt">
+                <h5>cadena con diamantes</h5>
+                <p>calidad premium</p>
+                <p class="precio">$3.000.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="5">agregar al carrito</a>
+            </div>            
+        </div>
+
+        <div class="acs">
+            <img src="imagenes/gafas1.webp" alt="">
+            <div class="accesorio-txt">
+                <h5>Ray-Ban</h5>
+                <p>calidad premium</p>
+                <p class="precio">$300.000</p>
+                <a href="#" class="agregar.carrito btn-3" data-id="3">agregar al carrito</a>
+            </div>            
+        </div>
+
+    </main>
+
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur minus 
+                    facere expedita eius mollitia placeat rem omnis accusantium reiciendis cum at molestias
+                     animi nam laudantium, aspernatur repellendus quo. Error!
+                    </p>
+                    <img src="imagenes/starts.png" alt="">
+                    <h4>lorem impsum</h4>
+            </div>
+    
+            <div class="testimonial-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur minus 
+                    facere expedita eius mollitia placeat rem omnis accusantium reiciendis cum at molestias
+                     animi nam laudantium, aspernatur repellendus quo. Error!
+                    </p>
+                    <img src="imagenes/starts.png" alt="">
+                    <h4>lorem impsum</h4>
+            </div>
+        </div>
+    
+       </section>
+    
+       <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>pociones de pago seguro </h3>
+                <ul>
+                    <li><a href="https://www.paypal.com/co/home"><i class="fa-brands fa-paypal"></i>paypal</a></li>
+                    <li><a href="#"><i class="fa-solid fa-truck-fast"></i>contraentrega colombia</a></li>
+                    <li><a href="#"><i class="fa-solid fa-folder"></i>tajetas de credito</a></li>
+                    <li><a href="#"><i class="fa-solid fa-earth-americas"></i>seguimiento del producto</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="link">
+                <h3>Noticias</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="link">
+                <h3>novedades</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="link">    
+                <h3>REDES SOCIALES</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                    <li><a href="https://www.instagram.com/?hl=es"><i class="fa-brands fa-instagram "></i>instagram</a></li>
+                    <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i>tiktok</a></li>
+                </ul>
+    
+            </div>
+    
+            
+    
+        </div>
+    
+       </footer>
+    
+
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
